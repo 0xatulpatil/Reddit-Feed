@@ -1,0 +1,105 @@
+.main{
+    display: flex;
+    flex-direction: column;
+    background-color: #2C2C2C;
+    border-radius: 5px;
+    height: 230px;
+    width: 671px;
+    margin-bottom: 26px;
+    margin-right: 21px;
+    overflow: hidden;
+}
+
+.links{
+    text-decoration: none;
+    all: unset;
+}
+
+.title{
+    color: #ffff;
+    font-size: 42px;
+    background-color: #2C2C2C;    
+    letter-spacing: 0.05rem;
+    font-family: 'Bebas Neue', cursive;
+    padding-left: 21px;
+    padding-top: 15px;
+
+  margin-bottom: 10px;
+    width: 650px;
+    height: 100px;
+  
+   display: -webkit-box;
+   -webkit-box-orient: vertical;
+   -webkit-line-clamp: 2;
+   overflow: hidden;
+   
+   
+}
+
+.iconsDiv{
+    display: flex;
+  
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    margin-top: 35px;
+    padding-left: 10px ;
+   
+    
+}
+
+.num{
+    background-color: #2C2C2C; 
+    padding-right: 20px; 
+    display: flex;  
+    align-items: center;
+
+}
+
+.user{
+    background-color: #2C2C2C; 
+    margin-left: 330px;
+    font-size: 17px;
+    display: flex;
+    align-items: center;
+
+}
+
+
+@media only screen and (max-width: 390px){
+
+    .main{
+    width: 335px;
+    height: 143px;
+    margin-bottom: 26px;
+    margin-right: 21px;
+    }
+
+    .title{
+    font-size: 26px;
+    width: 300px;
+    height: 70px;
+    padding-left: 14px;
+    padding-top: 11px;
+    }
+
+    .iconsDiv{
+    font-size: 10px;
+    margin-top: 18px;
+    padding-left: 7px ;
+    }
+.num{
+    font-size: 13px;
+    display: flex;
+ 
+    align-items: center;
+}
+.user{
+     display: flex;
+     align-items: center;
+    margin-left: 20px;
+    font-size: 12px;
+
+}
+}
+
